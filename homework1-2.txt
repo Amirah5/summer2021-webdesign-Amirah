@@ -1,0 +1,59 @@
+amunad@DESKTOP-BSBB43D MINGW64 ~
+$ cd Documents
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents
+$ ls
+ CCCApplicationReview-CalbrightCollege.pdf  'My Videos'@
+ ChromeSetup.exe*                            Myfolder/
+'Custom Office Templates'/                   VSCodeUserSetup-x64-1.56.2.exe*
+ JavaScript/                                 Zoom/
+ Libreofficedoc/                             desktop.ini
+'My Music'@                                  summer2021-webdesign-Amirah/
+'My Pictures'@                              'vitamin 11.odp'
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents
+$
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents
+$ git clone https://github.com/eagarcia8/summer2021-webdesign-eduardo.git
+Cloning into 'summer2021-webdesign-eduardo'...
+remote: Enumerating objects: 23, done.
+remote: Counting objects: 100% (23/23), done.
+remote: Compressing objects: 100% (19/19), done.
+remote: Total 23 (delta 3), reused 19 (delta 2), pack-reused 0
+Receiving objects: 100% (23/23), 184.25 KiB | 1.72 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents
+$ ls
+ CCCApplicationReview-CalbrightCollege.pdf   Libreofficedoc/   Myfolder/                         summer2021-webdesign-Amirah/
+ ChromeSetup.exe*                           'My Music'@        VSCodeUserSetup-x64-1.56.2.exe*   summer2021-webdesign-eduardo/
+'Custom Office Templates'/                  'My Pictures'@     Zoom/                            'vitamin 11.odp'
+ JavaScript/                                'My Videos'@       desktop.ini
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents
+$ cd summer2021-webdesign-Amirah/
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah
+$ mkdir homework
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah
+$ ls
+ Assignments/   Handouts/  'Introduction to Web Design Syllabus 1.6.pdf'   Projects/   homework/
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah
+$ ls
+ Assignments/   Handouts/  'Introduction to Web Design Syllabus 1.6.pdf'   Projects/   homework/
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah
+$ cd homework/
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah/homework
+$ touch homework1-2.txt
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah/homework
+$ ls
+homework1-2.txt
+
+amunad@DESKTOP-BSBB43D MINGW64 ~/Documents/summer2021-webdesign-Amirah/homework
+$
