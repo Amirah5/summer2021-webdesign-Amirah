@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>CSS Positions</title>
+
+        <style>
+body {
+    position: relative;
+    border: 5px solid black;
+    height: 10000px;
+}
+
+#red, #blue, #green, #yellow {
+    width: 200px;
+    height: 200px;
+    z-index: 200;
+} 
+
+#red {
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+   /* margin-top: 50px;
+    margin-left: 100px;*/
+    z-index: 2;
+}
+#blue {
+    background-color: blue;
+    position: relative;
+    top: 150px;
+    left: 150px;
+    margin-top: 100px;
+    z-index: -1;
+}
+#green {
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#yellow{
+    background-color: yellow;
+    top: 0;
+    /* auto will automatically calculate how much space each side should have equally. Only works on left/right, not top/bottom.*/
+    ]
+
+    margin-left: auto;
+    margin-right: auto;
+}
+        </style>
+
+    </head>
+
+    <body>
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="green"></div>
+
+        <div
+            id="yellow";>
+        </div>
+
+    </body>
+
+</html>

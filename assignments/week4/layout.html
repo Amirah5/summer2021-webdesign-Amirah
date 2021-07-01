@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>My First CSS Layout Web Page</title>
+
+        <style>
+            #container {
+                width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #header{
+                background-color: thistle;
+                color:blueviolet;
+                text-align:center;
+                font-family: "Arial";
+                font-size: 24px;
+                text-transform: uppercase;
+            }
+            #header h1 {
+                margin-block-end: 0;
+            }
+                #main {
+                    margin-top: 28px;
+                    padding: 28px;
+                    background-color: rgb(135, 235, 202);
+                    color: rgb(30, 30, 32);
+                    font-family: "Arial";
+                    font-size: 28px;
+                    font-weight: bold;
+                    border-radius: 14px;
+                    line-height: 42px;
+                    text-align: justify;
+                    word-spacing: 5;
+                }
+                #main p {
+                    margin-block-start: 0;
+                    
+                }
+                #main #article {
+                    display: inline-block;
+                    width: 616px;
+                    padding-right: 28px; 
+                    background-color: lightgoldenrodyellow;                  
+                }
+                #main #section{
+                    display: inline-block;
+                    width: 200px;
+                    height: 290px;
+                    background-color: rgb(240, 106, 58);
+                    vertical-align: top;
+                    border-radius: 14px;
+                }
+                #footer{
+                    margin-top: 28px;
+                    background-color: burlywood;
+                    height: 28px;
+                    border-radius: 12px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: rgb(26, 25, 25);
+                    font-family: "Arial";
+                }
+
+
+        </style>
+
+</head>
+
+<body>
+
+    <div id="container">
+    
+    <div id="header">
+        <h1>Welcome to My Website</h1>
+    </div>
+
+    <div id="main">
+        <div id="article">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum dolore, debitis provident voluptatem, magni nisi tempora esse explicabo natus eligendi deleniti tenetur. Labore, ea! Doloribus explicabo temporibus id quis dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, beatae magni? Quo mollitia itaque accusantium animi commodi reprehenderit. Officia eaque est provident quam quis, autem dolore facere fugit ratione aliquid.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptates doloribus modi qui porro! Culpa facere laborum dolore suscipit, praesentium, mollitia eveniet at odit provident debitis optio officiis. Iste, fuga?</p>            
+        </div><div id="section">
+
+        </div>
+        
+    </div>
+
+    <div id="footer">
+        <p>Copyright &copy; 2021</p>
+    </div>
+
+</div>
+    </body>
+</body>
+
+</html>

@@ -7,10 +7,63 @@
 
     <style>
 
+p, h1{
+    /*When you want to set the value to nothing, use 0 with No units.*/
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body{
+    margin: 20px;
+    padding: 20px;
+}
+
+#redbox, #purplebox{
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    /*margin-bottom: 20px;*/
+    border: 20px peru solid;
+    border-radius: 20px;
+}
+#purplebox{
+    background-color:purple;
+    width: 300px;
+}
+
+#aquabox, #yellowbox{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:aquamarine;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: 20px rgb(233, 124, 200) solid;
+    border-radius: 20px;
+}
+#yellowbox{
+    background-color: yellow;
+}
+
+/* Direct decendant selector, the second element should be a direct child of the first element. */
+body > p {
+    display: inline;
+    vertical-align: bottom;
+}
     </style>
 </head>
 
 <body>
+    <div id="redbox">
+       <p>Hello</p>
+       <div id="aquabox"><img class="portrait" src="flowers.jpg" alt="flower bouquet"
+        width="90"height="80"/></div> 
+    </div>
+    <div id="aquabox"> </div>
+    <div id="purplebox"></div>
+    
     <!--The header section would include logo, website name, any login/search icons, navigation. This should be the same for every webpage of the website.-->
     <header>
         <!--The nave element is for your navigation links-->
