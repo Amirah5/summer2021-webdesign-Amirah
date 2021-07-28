@@ -1,0 +1,64 @@
+
+My Portfolio Website
+
+
+Color Elements for My Portfolio Website
+
+1. Body
+2. Header
+3. Link text
+4. Background-color
+
+Fonts for My Portfolio Website
+
+1. Body
+2. Header
+3. Paragraph
+4. Link text
+
+Images for My Portfolio Website
+
+icons for skills
+icons for related work
+
+
+Web Pages of My Portfolio
+
+1. [A Showcase of My Work]
+2. About Page
+3. Projects 
+4. Testimonials
+5. Call to Action 
+6. Blog and Syndication
+
+
+2. About Page
+
+My name
+Linked in profile
+Picture of Me
+Information about myself
+
+3. Projects Presentations
+
+Purpose of the project
+Objective
+Approach
+Project duration
+My role
+Final product overview
+
+4. Testimonials
+
+Clients feedback
+Teammates feedback
+
+5. Call to Action 
+
+Actions site visitors can take
+Contact details for visitors or clients 
+
+
+Blog about my page
+
+Writing about my coding journey.

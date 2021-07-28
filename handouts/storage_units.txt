@@ -1,0 +1,20 @@
+How Much:
+1 Bit = a single one or zero. (on or off, negative or positive, charge or no charge, etc.)
+1 Byte = 8 ones or zeroes.
+1 Kilobyte = 1 thousand Bytes (1 KB)
+1 Kibibyte = 1 thousand 24 Bytes (1KiB)
+1 Megabyte = 1 million Bytes (1 MB)
+	    1 thousand Kilobytes
+1 Gigabyte = 1 billion Bytes (1 GB)
+	    1 thousands Megabytes
+1 Terabyte = 1 trillion Bytes (1 TB)
+	    1 thousand Gigabytes
+
+How Fast:
+1 Kilobits/s (Kb/s) = 1 thousand Bits (Not Bytes!) per second
+1 Kilobytes/s(KB/s) = 8 Kilobits/s
+1 Megabits/s (Mb/s) = 1 thousand Kilobits per second
+1 Megabytes/s(MB/s) = 8 Megabits/s
+1 Gigabits/s (Gb/s) = 1 thousand Megabits per second
+1 Gigabytes/s(GB/s) = 8 Gigabits/s
+
