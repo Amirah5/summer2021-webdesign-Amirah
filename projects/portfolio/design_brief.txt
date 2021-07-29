@@ -4,17 +4,21 @@ My Portfolio Website
 
 Color Elements for My Portfolio Website
 
-1. Body
-2. Header
-3. Link text
-4. Background-color
+1. Header: Text, #9ba2ff
+2. Sub-Headers: Text, #246a73
+3. Paragraph: Text, black
+4. Background-color:  #f3dfc1
+5. Buttons/icons:  Text, #ddbea8  Background, #f3dfc1  
+6. Link Text: Text, #210203 
 
 Fonts for My Portfolio Website
 
-1. Body
-2. Header
-3. Paragraph
-4. Link text
+1. Header: Text, font-family: 'Noto Sans JP', sans-serif;
+2. Sub-Headers: Text, font-family: 'Poppins', sans-serif;
+3. Paragraph: Text, font-family: 'Quicksand', sans-serif;
+4. Buttons/icons:  Text, font-family: 'PT Serif', serif;
+5. Link Text: Text, font-family: 'Zilla Slab', serif;
+
 
 Images for My Portfolio Website
 
@@ -24,22 +28,22 @@ icons for related work
 
 Web Pages of My Portfolio
 
-1. [A Showcase of My Work]
-2. About Page
-3. Projects 
-4. Testimonials
-5. Call to Action 
-6. Blog and Syndication
+1. About Page
+2. Projects 
+3. Contact
+4. Blog 
 
 
-2. About Page
+1. About Page
 
-My name
-Linked in profile
+My name  Amirah Munad
+Linked in profile   linkedin.com/in/abx
 Picture of Me
 Information about myself
 
-3. Projects Presentations
+I am a dedicated and self-motivated technical knowledge learner and recently acquired the Google IT Support Certificate offered by Coursera and facilitated by JobTrain. I got hands-on experience in solving customers' issues using remote access and technical knowledge about IT fundamentals, computer networking, operating systems, system administration, and IT security. Last year completed a course in Cloud Native Computing from PIAIC (Presidential Initiative for Artificial Intelligence and Computing Online from Pakistan). I know how to write scripts in Ubuntu, Linux, install Docker engine and minikube, and run Kubernetes using kubectl for containerized applications. After finishing the HTML course from PIAIC and FreeCodeCamp, now learning JavaScript online. 
+
+2. Projects 
 
 Purpose of the project
 Objective
@@ -48,17 +52,51 @@ Project duration
 My role
 Final product overview
 
-4. Testimonials
+1. After finishing the HTML course from PIAIC and FreeCodeCamp, I built my website about my hobby page. 
 
-Clients feedback
-Teammates feedback
+2. A while ago participated in a hackathon as a family and developed an app, " Panic Button," for alerting and providing a safe route to exit from active shooting instances in schools and distributed that app to the local school for free. 
 
-5. Call to Action 
+3. Have a passion for creative cooking and have my YouTube channel into cooking. 
+
+4. Passionate about technology and created partition on a hard disk and now using Windows and Ubuntu, Linux in the same laptop. Recently found out about Notion. so. I learned it and documented detailed notes about the IT support course, published them on the web, and shared them with my class fellows.
+
+5. Learned javaScript from Khan Academy and completed coding project with animation for a coding challenge arranged by Code the Dream.
+
+6. Created APR calculating web page app.
+
+3. Contact 
 
 Actions site visitors can take
+
+Guidelines for entering into coding and programming for people from non-traditional backgrounds including women returning to work.
+
 Contact details for visitors or clients 
 
 
-Blog about my page
+4. Blog 
 
+blog about my page
 Writing about my coding journey.
+
+I attended a seminar about Tech space while studying at university. I was fascinated by it but could not pursue my IT interest due to a lack of resources and no computer at home. When I came to the US with my husband, I knew about the tech space and got access to a computer but could not utilize it entirely due to limited technical knowledge. My interest in tech space sparked when, in my last job, I helped many customers with their problems using IT. I helped many small businesses submit their paperwork in CERS California Environmental Reporting System using their smartphones and saved them from violation fees. This interest in IT change into a passion, and I am driving this passion with my self- motivation to learn and be part of the tech space.
+
+
+
+3 Portfolios I like:
+
+#1 - https://benadam.me/
+Three likes: I like how everything is generally centered all the way down the page; it gives the page a professional look. The task bar is conveniently placed across the top of the page, and the fonts give a welcoming feeling. 
+
+Three dislikes: There isn't a lot of color on this webpage, only one main image, and the background is too plain.
+
+
+#2 - https://mattfarley.ca/
+Three likes: I like how the overall design is rather simple, there are neat and centered containers that hold most of the text and smaller icon images, and a few colors are used. 
+
+Three dislikes: The colors on this webpage are a bit too bright to look at, there isn't a clear navigation in respect to the taskbar, and the fonts are not very profession in appearance. 
+
+
+#3 - https://caferati.me/
+Three likes: The animation on this webpage is well-done, there is a cool loading page, and an animation allows you to interact with the webpage and accumulate points as if the user was playing a game of sorts. 
+
+Three dislikes: The background is a little bit dark and might cause eye-strain, there is no clear navigation task bar so that might cause confusion, and not much colors are used. 

@@ -1,23 +1,53 @@
 console.log("Hello");
 // $(function () {});
+//jQuery Document Ready statement. Waits for the web page to fully load before running any jQuery code.
 $(document).ready(function() {
+ 
+    $("#loan-amount").click(function(){
+        $("#loan-label").css("color", "black");
+    });
 
+    $("#apr").click(function () {
+        $("#apr-label").css("color", "black");
+    })
+//Attach a click listener to the calculate button.
     $("#submit").click(function () {
+
+        //grab the values from the text input boxes.
         var loanAmount = $("#loan-amount").val();
         var apr = $("#apr").val();
-
+        
+        //Try to convert the input values into javascript numbers. will give NaN if unable to convert.
         loanAmount = parseFloat(loanAmount);
         apr = parseFloat(apr); // SHOULD BE FLOAT to include "pennies".
+        
+        var error = "none"; 
+        if (isNan(loanAmount)){
+            error = "loan";
+        } else if(isNan(apr)) {
+            error = "apr";
+        }
 
-        console.log(apr);
+        //console.log(apr);
 
+        //Equation for finding out the interest for the "first" month.
         var interestPrice = loanAmount * ((apr / 100) / 12);
-
+        
+        //Remove any extra decimal places and keep only up to the hundredth place.
         interestPrice = interestPrice.toFixed(2);
 
+        //we build the message we are going to send to the web page.
         var resultsText = "You will owe an extra $" + interestPrice + " after 1 month.<br />(Monthly Compounding Interest)";
 
-        $("#result-value").html(resultsText);
+        //update the contents of the paragraph with the string we built.
+        if(error == "none"){
+            $("#result-value").html(resultsText);
+        }; else if (error == "loan"){
+            $("#result-value").html("The value you provided for your loan is not a valid number!");
+            $("#loan-label").css("color", "red");
+        }   
+        }
+        
     });
 
 });
