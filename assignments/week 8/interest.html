@@ -28,9 +28,9 @@
 #container {
     width: 400px;
     /*height: 600px;/*remove later*/
-    box-shadow: 0 0 20px 40px #EAE6F0;
+    box-shadow: 0 0 100px 100px #EAE6F0;
     border-radius: 10px;
-    border: 1px solid rgb(125,125,125);
+     /* border: 1px solid rgb(125,125,125); */
     margin: 40px auto 0 auto;
     padding: 20px;
 }
@@ -91,14 +91,15 @@ input{
         </div>
         <div id="form">
             <label id="loan-label"for="loan-amount">Loan Amount</label> <br />
-            <input id="loan-amount" type="number"/>placeholder="10000" /><br />
+            <input id="loan-amount" type="number" placeholder="10000" /><br />
             <label id="apr-label"for="apr">APR Percentage</label> <br />
-            <input id="apr" type="number"/>placeholder="23.99" /><br />
+            <input id="apr" type="number"placeholder="23.99" /><br />
             <!-- If we have extra time, allow an option that selects compound interest frequency: daily, monthly, or yearly.-->
             <button id="submit">Calculate!</button>
-            </div>
+            </div>   
+        
 
-        <div id="results">
+            <div id="results">
             <p id="result-value"></p>
             <p id="disclaimer">Interest Rate Calculated is based on Monthly Compounding Interest, where a Month is 30 Days. We are not responsible for any errors or incorrect information provided by this tool. Please contact your local financial advisor before making any financial decisions.</p>
         </div>
