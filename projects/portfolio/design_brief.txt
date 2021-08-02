@@ -100,3 +100,9 @@ Three dislikes: The colors on this webpage are a bit too bright to look at, ther
 Three likes: The animation on this webpage is well-done, there is a cool loading page, and an animation allows you to interact with the webpage and accumulate points as if the user was playing a game of sorts. 
 
 Three dislikes: The background is a little bit dark and might cause eye-strain, there is no clear navigation task bar so that might cause confusion, and not much colors are used. 
+
+
+Helpful Links for Blog:
+-https://venturebeat.com/2021/07/31/pledgela-los-angeles-tops-u-s-funding-for-women-and-people-of-color-led-businesses/
+
+-https://betterprogramming.pub/15-helpful-tips-for-software-developers-to-succeed-9174c485399e
