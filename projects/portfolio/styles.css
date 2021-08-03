@@ -57,6 +57,11 @@ main{
     padding: 40px;
 }
 
+#homeimg {
+    width: 40%;
+    margin: 5px;
+    float:right;
+}
 
 
 
