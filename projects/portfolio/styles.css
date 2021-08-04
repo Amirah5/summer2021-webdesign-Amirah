@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
-body {
-    font-family: ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 
 nav ul {
     text-align: right;
@@ -10,7 +11,7 @@ nav ul {
 nav ul li {
     font-size: 24px;
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 nav ul li a {
@@ -18,7 +19,7 @@ nav ul li a {
 }
 
 nav ul li a:link {
-    color:dodgerblue;
+    color:rgb(194, 97, 181);
 }
 
 nav ul li a:visited {
@@ -26,7 +27,8 @@ nav ul li a:visited {
 }
 
 nav ul li a:hover {
-    color: orange;  
+    color: blueviolet;  
+    background-color: lightskyblue;
 }
 
 nav ul li a:active {
@@ -34,45 +36,102 @@ nav ul li a:active {
 }
 
 #headingcontainer{
-    width: 600px;
-    float: left;
+    font-family: 'Merriweather', serif;
+    width: 700px;
+    /* float: left; */
+    text-align: center;
     margin: 0 auto;
     overflow: auto;
-    background-color:rgb(234, 240, 241);
-    border-top-left-radius: 20px;
+   border-top-left-radius: 20px;
     border-top-right-radius: 20px;  
+    /* padding-left: 200px; */
 }
 
-#heading{
+#aboutheading{
+    text-align: center;
+    padding-right: 300px;
+    font-size: 18px;  
+}
+
+#homeheading{
     text-align: center;
     font-size: 18px; 
+    padding-right: 150px;
 }
 
-
-main{
+#aboutmain{
     position: relative;
-    margin-top: 400px;
+    margin-top: 100px;
     background-color: rgb(245, 245, 245);
     overflow: auto;
-    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Quicksand', sans-serif;
 }
 
+#homemain{
+    position: relative;
+    margin-top: 150px;
+    background-color: rgb(245, 245, 245);
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#contactmain{
+    position: relative;
+    margin-top: 100px;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#blogmain{
+    position: relative;
+    margin-top: 100px;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
 #homeimg {
-    width: 40%;
+    width: 30%;
     margin: 5px;
     float:right;
 }
 
+#aboutimg {
+    width: 20%;
+    margin: 5px;
+    float:right;
+}
+.projectimg{
+    width: 28%;
+    margin: 5px;
+    padding: 20px;
+    /* float:right; */
+}
 
+#contactimg{
+    width: 15%;
+    margin: 5px;
+    float: right;
+}
 
 #foot{
     position: relative;
-    margin-top: 200px;
+    margin-top: 350px;
     overflow: auto;
-    background-color: black;
+    background-color: gray;
     color: white;
     text-align: center;
     font-size: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;   
+       
 }

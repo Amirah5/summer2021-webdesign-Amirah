@@ -78,8 +78,8 @@ Contact details for visitors or clients
 blog about my page
 Writing about my coding journey.
 
-I attended a seminar about Tech space while studying at university. I was fascinated by it but could not pursue my IT interest due to a lack of resources and no computer at home. When I came to the US with my husband, I knew about the tech space and got access to a computer but could not utilize it entirely due to limited technical knowledge. My interest in tech space sparked when, in my last job, I helped many customers with their problems using IT. I helped many small businesses submit their paperwork in CERS California Environmental Reporting System using their smartphones and saved them from violation fees. This interest in IT change into a passion, and I am driving this passion with my self- motivation to learn and be part of the tech space.
 
+My coding journey began with exploring options to create my travelling blog. Learning HTML from FreeCodeCamp and PIAIC I was able to create my first website regarding my travelling ventures. MEDA Mission Techies bootcamp took it to next level by equipping me with the armor of CSS and JavaScript. Hence able to create my lively, interactive website regarding my hobby "Paper Quilling". Since then I am on a quest in coding land with a mission to design and develop websites that transforms ideas into solutions. Looking forward to new challenges and helping others in their journey into coding land ):
 
 
 3 Portfolios I like:
